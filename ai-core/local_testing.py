@@ -27,10 +27,8 @@ async def test_end_to_end_cycle():
     print("=" * 60)
 
     # Test document URLs
-    test_urls = [
-        "https://datumdoc.blob.core.windows.net/datumfilecontainer/PropertyDocuments/11925-wilshire-boulevard-94298286/Public/Unexecuted CA_11925WilshireBoulevard.doc",
-        "https://datumdoc.blob.core.windows.net/datumfilecontainer/PropertyDocuments/900-gayley-41309454/Public/Unexecuted CA_900Gayley.doc",
-        "https://datumdoc.blob.core.windows.net/datumfilecontainer/PropertyDocuments/the-hancock-35738319/Public/Unexecuted CA_TheHancock.doc"
+    test_urls = ["https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.doc",
+                 "https://file-examples-com.github.io/uploads/2017/02/file-sample_500kB.doc",
     ]
 
     results = {}
