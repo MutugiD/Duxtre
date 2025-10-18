@@ -306,7 +306,7 @@ async def test_libreoffice_conversion(content):
         return {"success": False, "error": str(e)}
 
 async def process_docx_file(docx_path):
-    """Process converted .doc file"""
+    """Process converted .doc and .dcox file"""
     try:
         from unstructured.partition.docx import partition_docx
 

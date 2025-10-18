@@ -1,8 +1,8 @@
 """
 This is the azure_client end-to-end cycle:
-1. RAG file changes
+1. RAG file cHanges
 2. Processing of RAG
-3. RAG entry point
+3. RAG entry points
 """
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents import SearchClient
