@@ -1,6 +1,4 @@
 """
-End-to-End Test for .doc Processing Complete Cycle
-
 This test validates the complete end-to-end cycle:
 1. Document download
 2. Processing with Unstructured library
