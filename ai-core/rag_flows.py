@@ -2,7 +2,7 @@
 This test validates the RAG end-to-end cycle:
 1. RAG files
 2. Processing wof RAG
-3. API endpoint functionality
+3. RAG entry point
 """
 
 import json
