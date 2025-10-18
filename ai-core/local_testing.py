@@ -2,6 +2,7 @@
 This test validates the complete end-to-end cycle:
 1. Document download
 2. Processing with Unstructured library
+3. Template files
 """
 
 import asyncio

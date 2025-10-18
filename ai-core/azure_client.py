@@ -1,7 +1,7 @@
 """
 This is the azure_client end-to-end cycle:
-1. RAG files
-2. Processing wof RAG
+1. RAG file
+2. Processing of RAG
 3. RAG entry point
 """
 from azure.core.credentials import AzureKeyCredential
