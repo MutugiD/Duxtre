@@ -1,10 +1,8 @@
 """
-End-to-End Test for .doc Processing Complete Cycle
-
 This test validates the complete end-to-end cycle:
 1. Document download
 2. Processing with Unstructured library
-3. API endpoint functionality
+3. Template files
 """
 
 import asyncio
@@ -308,7 +306,7 @@ async def test_libreoffice_conversion(content):
         return {"success": False, "error": str(e)}
 
 async def process_docx_file(docx_path):
-    """Process converted .docx file"""
+    """Process converted .doc and .dcox file"""
     try:
         from unstructured.partition.docx import partition_docx
 
