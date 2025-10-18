@@ -1,3 +1,10 @@
+"""
+This test validates the RAG end-to-end cycle:
+1. RAG files
+2. Processing wof RAG
+3. API endpoint functionality
+"""
+
 import json
 from typing import Any, Optional, List, Dict
 from datetime import datetime
