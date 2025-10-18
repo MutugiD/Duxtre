@@ -2,8 +2,6 @@
 This test validates the complete end-to-end cycle:
 1. Document download
 2. Processing with Unstructured library
-3. API endpoint functionality
-4. Open templates
 """
 
 import asyncio

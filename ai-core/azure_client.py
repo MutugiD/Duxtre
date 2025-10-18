@@ -1,4 +1,9 @@
-#this is the client file
+"""
+This is the azure_client end-to-end cycle:
+1. RAG files
+2. Processing wof RAG
+3. RAG entry point
+"""
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents import SearchClient
 from azure.search.documents.indexes import SearchIndexClient

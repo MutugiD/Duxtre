@@ -1,5 +1,5 @@
 """
-This test validates the RAG end-to-end cycle:
+RAG flow validates the RAG end-to-end cycle:
 1. RAG files
 2. Processing wof RAG
 3. RAG entry point
