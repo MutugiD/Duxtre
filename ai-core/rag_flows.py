@@ -1157,7 +1157,7 @@ async def process_property_documents_robust() -> bool:
 
             property_section = content[property_start:next_property_start]
 
-            # Extract document URLs from this property section
+            # Extract document URL from this property section
             for pattern, doc_type in document_patterns:
                 matches = re.findall(pattern, property_section, re.DOTALL)
 

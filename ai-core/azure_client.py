@@ -1,6 +1,6 @@
 """
 This is the azure_client end-to-end cycle:
-1. RAG file change
+1. RAG file changes
 2. Processing of RAG
 3. RAG entry point
 """
